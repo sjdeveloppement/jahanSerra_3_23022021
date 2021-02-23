@@ -240,6 +240,40 @@ p {
   grid-area: delice;
 }
 
+.full {
+  visibility: hidden;
+  color: #9356DC;
+}
+
+/*like effect*/
+@-webkit-keyframes full {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+@keyframes full {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+.like:hover + .full {
+  visibility: visible;
+  -webkit-animation: full 1000ms;
+          animation: full 1000ms;
+  -webkit-transform-origin: 50% 90%;
+          transform-origin: 50% 90%;
+}
+
 .card {
   margin: 30px;
 }
@@ -259,8 +293,16 @@ p {
   margin-left: 750px;
   margin-top: -150px;
 }
-.card .like:hover {
-  color: #9356DC;
+
+.new {
+  color: green;
+  background-color: #99E2D0;
+  padding: 0px 30px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 700px;
+  z-index: 1;
+  border-radius: 5px;
 }
 
 /*footer*/
