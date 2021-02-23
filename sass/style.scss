@@ -223,4 +223,27 @@ padding-right: 20px;
     }
 }
 /*footer*/
+footer{
+    color: white;
+    margin-top: -20px;
+    background-color: rgb(59, 59, 59);
+    padding: 50px;
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.icofooter{
+    
+    float: left;
+    margin-right: 30px;
+}
+.linkfooter ul{
+    list-style: none;  
+}
+.mailto{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+}
+
 

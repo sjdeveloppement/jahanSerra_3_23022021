@@ -264,4 +264,28 @@ p {
 }
 
 /*footer*/
+footer {
+  color: white;
+  margin-top: -20px;
+  background-color: #3b3b3b;
+  padding: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.icofooter {
+  float: left;
+  margin-right: 30px;
+}
+
+.linkfooter ul {
+  list-style: none;
+}
+
+.mailto {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
