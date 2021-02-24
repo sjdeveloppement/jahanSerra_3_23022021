@@ -18,6 +18,13 @@ p {
   text-align: center;
   font-size: 40px;
 }
+.logo a {
+  text-decoration: none;
+  color: #99E2D0;
+  margin-top: 30px;
+  margin-left: 20px;
+  float: left;
+}
 
 .findus {
   display: flex;
@@ -216,6 +223,11 @@ p {
   color: #9356DC;
 }
 
+.grid-container a {
+  text-decoration: none;
+  color: black;
+}
+
 /*like effect*/
 @keyframes full {
   0% {
@@ -260,6 +272,53 @@ p {
   margin-left: 700px;
   z-index: 1;
   border-radius: 5px;
+}
+
+/*main restaurant's page menu*/
+.img-restaurant {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.main-menu {
+  background-color: #f3f3f3;
+  border-radius: 80px 80px 0 0;
+  margin-top: -130px;
+  position: relative;
+  z-index: 1;
+}
+.main-menu h2 {
+  font-size: 60px;
+  display: flex;
+  padding: 50px;
+}
+.main-menu .btn {
+  padding: 30px 60px;
+}
+.main-menu .like {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 300px;
+}
+
+.spacetopgrid {
+  margin-top: -80px;
+}
+
+.menu-part {
+  padding-left: 60px;
+  text-align: start;
+}
+.menu-part .part {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.underline {
+  border-bottom: 5px solid #99E2D0;
+  width: 100px;
+  margin-top: -30px;
 }
 
 /*footer*/
