@@ -321,6 +321,22 @@ p {
   margin-top: -30px;
 }
 
+.card-menu {
+  margin: 30px;
+  background-color: white;
+  border-radius: 50px;
+  text-align: start;
+  padding: 20px;
+}
+.card-menu .card-item {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-menu .card-item .price {
+  margin-right: 30px;
+}
+
 /*footer*/
 footer {
   color: white;

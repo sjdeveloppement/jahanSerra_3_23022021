@@ -313,6 +313,21 @@ border-bottom: 5px solid #99E2D0;
 width: 100px;
 margin-top: -30px;
 }
+.card-menu{
+    margin: 30px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: start;
+    padding: 20px;
+    & .card-item{
+        margin-top: -20px;
+        display: flex;
+        justify-content: space-between;
+        & .price{
+            margin-right: 30px;
+        }
+    }
+}
 
 
 
