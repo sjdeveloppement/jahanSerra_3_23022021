@@ -245,6 +245,8 @@ p {
 
 .card {
   margin: 30px;
+  /*desktop margin heart icon*/
+  /* */
 }
 .card img {
   width: 100%;
@@ -256,6 +258,12 @@ p {
   margin-top: -30px;
   border-radius: 0px 0px 50px 50px;
   padding: 20px;
+  box-shadow: 1px 1px 20px 1px rgba(164, 159, 159, 0.2);
+}
+@media only screen and (min-width: 900px) {
+  .card .card-infos i {
+    padding-top: 50px;
+  }
 }
 .card .like {
   position: absolute;
