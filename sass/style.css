@@ -372,6 +372,15 @@ p {
   border-radius: 50px;
   text-align: start;
   padding: 20px;
+  overflow: hidden;
+  /*sliders desktop rules margin*/
+}
+.card-menu h3 {
+  margin-bottom: -10px;
+  font-size: 40px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 600px;
 }
 .card-menu .card-item {
   margin-top: -20px;
@@ -383,7 +392,89 @@ p {
           justify-content: space-between;
 }
 .card-menu .card-item .price {
-  margin-right: 30px;
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 800px;
+  /*test*/
+}
+.card-menu .menu-slide {
+  background-color: #99E2D0;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  width: 20%;
+  border-radius: 0 50px 50px 0;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  margin: -1rem -20rem -1rem -1rem;
+  z-index: 1;
+}
+.card-menu .menu-slide .circle {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+@media only screen and (min-width: 900px) {
+  .card-menu .menu-slide {
+    margin: -1rem -30rem -1rem -1rem;
+  }
+}
+
+p.card-ingredient {
+  width: 600px;
+  font-size: 40px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-menu:hover .menu-slide {
+  margin: -6.6rem -1.3rem -1.3rem -1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-menu:hover .menu-slide .circle {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+}
+.card-menu:hover .price {
+  -webkit-animation-name: slidin;
+          animation-name: slidin;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1.1s;
+          animation-duration: 1.1s;
+}
+@-webkit-keyframes slidin {
+  from {
+    left: 800px;
+  }
+  to {
+    left: 650px;
+  }
+}
+@keyframes slidin {
+  from {
+    left: 800px;
+  }
+  to {
+    left: 650px;
+  }
+}
+.card-menu:hover .card-ingredient {
+  overflow: hidden;
+}
+.card-menu:hover h3 {
+  overflow: hidden;
 }
 
 /*footer*/
