@@ -292,7 +292,7 @@ padding-right: 20px;
 }
 /*like effect*/
 @keyframes full{
-    
+
     0%{
         
         transform: scaleY(0);
@@ -307,11 +307,8 @@ padding-right: 20px;
         visibility: visible;
         animation: full 1000ms;
         transform-origin: 50% 90%;
-        
-        
     }
 }
-
 .card{
     margin: 30px;
     & img{
@@ -350,7 +347,6 @@ padding-right: 20px;
     margin-left: 700px;
     z-index: 1;
     border-radius: 5px;
-    
 }
 /*main restaurant's page menu*/
 .img-restaurant{
@@ -414,7 +410,6 @@ margin-top: -30px;
             transform: translate(0px,0%);
         }
     }
-    
 }
 .anim2{
     animation-name: anim2;
@@ -433,7 +428,6 @@ margin-top: -30px;
             transform: translate(0px,0%);
         }
     }
-    
 }
 .anim3{
     animation-name: anim3;
@@ -452,7 +446,6 @@ margin-top: -30px;
             transform: translate(0px,0%);
         }
     }
-    
 }
 .anim4{
     animation-name: anim4;
@@ -471,7 +464,6 @@ margin-top: -30px;
             transform: translate(0px,0%);
         }
     }
-    
 }
 /*end animation*/
 .card-menu{
@@ -494,17 +486,12 @@ margin-top: -30px;
         margin-top: -20px;
         display: flex;
         justify-content: space-between;
-        
-       
-        
         & .price{
             font-weight: 600;
             position: absolute;
             z-index: 1;
             right: 0;
-            left: 800px;
-            /*test*/   
-           
+            left: 800px;  
         }
     }
     & .menu-slide{
@@ -546,8 +533,6 @@ p.card-ingredient{
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        
         & .circle{
             transform: rotate(0);
             transition-duration: 1.3s;
@@ -558,8 +543,6 @@ p.card-ingredient{
         animation-name: slidin;
         animation-fill-mode: forwards;
         animation-duration: 1.1s;
-        
-      
     }
     @keyframes slidin {
         from{
@@ -568,7 +551,6 @@ p.card-ingredient{
         to{
             left:650px;
         }
-        
     }
     .card-ingredient{
         overflow: hidden;
@@ -577,11 +559,6 @@ p.card-ingredient{
         overflow: hidden;
     }
 }
-
-
-
-
-
 /*footer*/
 footer{
     color: white;
@@ -591,11 +568,9 @@ footer{
     & a{
         text-decoration: none;
         color: white;
-        
     }
 }
-.icofooter{
-    
+.icofooter{ 
     float: left;
     margin-right: 30px;
 }
@@ -606,5 +581,3 @@ footer{
     font-family: 'Roboto', sans-serif; 
     font-size: 30px;
 }
-
-
