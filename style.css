@@ -4,6 +4,72 @@ body {
   background-color: white;
 }
 
+/*loader home page*/
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 1s;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader .loader-container {
+  display: flex;
+  width: 5rem;
+  justify-content: space-between;
+}
+
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.loader-item {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  animation: jump 1s;
+  animation-iteration-count: 1;
+}
+
+.loaditem_1 {
+  background-color: #9356DC;
+}
+
+.loaditem_2 {
+  background-color: #99E2D0;
+  animation-delay: 200ms;
+  transition-delay: 400ms;
+}
+
+.loaditem_3 {
+  background-color: #FF79DA;
+  animation-delay: 400ms;
+  transition-delay: 600ms;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  75% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 h1, h2, h3, h4 {
   font-family: "Shrikhand", cursive;
 }
