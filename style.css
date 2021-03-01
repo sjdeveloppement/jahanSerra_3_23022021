@@ -168,20 +168,22 @@ p {
   padding-right: 50px;
   color: grey;
 }
-.filter1 .num {
+.filter1:hover {
+  background-color: #9256dc1c;
+}
+
+.num {
   position: absolute;
   margin-right: 850px;
 }
-.filter1 .num p {
+
+.num p {
   font-size: 30px;
   background-color: #9356DC;
   border: 1px solid #9356DC;
   border-radius: 50%;
   padding: 10px 20px;
   color: white;
-}
-.filter1:hover {
-  background-color: #9256dc1c;
 }
 
 .filter2 {
