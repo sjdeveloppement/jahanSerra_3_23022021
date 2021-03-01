@@ -232,11 +232,11 @@ p {
   padding-right: 50px;
   color: grey;
 }
-.filter1 span {
+.filter1 .num {
   position: absolute;
   margin-right: 850px;
 }
-.filter1 span p {
+.filter1 .num p {
   font-size: 30px;
   background-color: #9356DC;
   border: 1px solid #9356DC;
@@ -273,11 +273,11 @@ p {
   padding-right: 50px;
   color: grey;
 }
-.filter2 span {
+.filter2 .num {
   position: absolute;
   margin-right: 850px;
 }
-.filter2 span p {
+.filter2 .num p {
   font-size: 30px;
   background-color: #9356DC;
   border: 1px solid #9356DC;
@@ -314,11 +314,11 @@ p {
   padding-right: 50px;
   color: #9356DC;
 }
-.filter3 span {
+.filter3 .num {
   position: absolute;
   margin-right: 850px;
 }
-.filter3 span p {
+.filter3 .num p {
   font-size: 30px;
   background-color: #9356DC;
   border: 1px solid #9356DC;
