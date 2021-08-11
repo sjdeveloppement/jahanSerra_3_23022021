@@ -397,8 +397,8 @@ p {
 }
 .like:hover + .full {
   visibility: visible;
-  -webkit-animation: full 1000ms;
-          animation: full 1000ms;
+  -webkit-animation: full 700ms;
+          animation: full 700ms;
   -webkit-transform-origin: 50% 90%;
           transform-origin: 50% 90%;
 }
@@ -785,4 +785,9 @@ footer a {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
 }
+
+/* adaptation viewport*/
+/*@media only screen and (max-width: 940px){
+
+}*/
 /*# sourceMappingURL=style.css.map */

@@ -2,8 +2,8 @@
 body{
     background-color: white;
 }
-/*loader home page*/
 
+/*loader home page*/
 .loader{
     position:fixed;
     height: 100%;
@@ -23,9 +23,7 @@ body{
             display: flex;
             width: 5rem;
             justify-content: space-between;
-        
         }
-    
 }
 @keyframes loader{
     100%{
@@ -33,7 +31,6 @@ body{
         z-index: -10;
     }
 }
-
 .loader-item{
     height: 1rem;
     width: 1rem;
@@ -42,8 +39,7 @@ body{
     animation-iteration-count: 1;
     }
 .loaditem_1{
-    background-color: #9356DC;
-    
+    background-color: #9356DC;    
 }
 .loaditem_2{
     background-color: #99E2D0;
@@ -57,23 +53,16 @@ body{
 }
 @keyframes jump{
     0%{
-        transform: translateY(0);
-        
-        
-        
+        transform: translateY(0);   
     }
     25%{
         transform: translateY(0.5rem);
-        
-         
     }
     75%{
         transform: translateY(-0.5rem);
-        
     }
     100%{
         transform: translateY(0);
-        
     }
 }
 
@@ -307,7 +296,7 @@ padding-right: 20px;
 .like {
     &:hover +.full{
         visibility: visible;
-        animation: full 1000ms;
+        animation: full 700ms;
         transform-origin: 50% 90%;
     }
 }
@@ -583,3 +572,8 @@ footer{
     font-family: 'Roboto', sans-serif; 
     font-size: 30px;
 }
+
+/* adaptation viewport*/
+/*@media only screen and (max-width: 940px){
+    
+}*/
