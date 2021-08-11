@@ -1,6 +1,6 @@
 jahanSerra_3_23022021
 
-![animation](https://github.com/sjdeveloppement/jahanSerra_3_23022021/blob/main/Maquettes_Ohmyfood/maquettes/Animations/Animation%20-%20Page%20Menu%20-%20Apparition%20progressive.mp4)
+![logo](https://github.com/sjdeveloppement/jahanSerra_3_23022021/blob/main/Maquettes_Ohmyfood/images/logo/ohmyfood.png)
 
 ----------------------
 
